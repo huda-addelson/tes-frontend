@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply text-secondary;
+}
+
+h1 {
+  @apply text-[60px] font-medium;
+}
+
+h2 {
+  @apply text-[35px] font-medium;
+}
+
+h3 {
+  @apply text-[17px] md:text-[24px];
+}
+
+p {
+  @apply text-base text-[#4F5665] leading-[30px] font-light;
+}
+
+.section {
+  @apply py-12 leading-normal;
+}
